@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbershop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=Roboto&display=swap" rel="stylesheet" />
+  <meta name="theme-color" content="#0f1d2b" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <img src="./image/logo.png" alt="logo" class="logo-img" />
+      <input type="checkbox" id="burger-toggle" />
+      <label for="burger-toggle" class="burger">&#9776;</label>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#tarif">Prestations</a></li>
+          <li><a href="#avis">Avis</a></li>
+          <li><a href="#formulaire">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="accueil" class="accueil section-padding">
+      <div class="accueil-content">
+        <a href="#formulaire" class="btn-rdv">Prendre rendez-vous</a>
+        <h1>"Élégance, précision, caractère - Votre style, notre signature."</h1>
+      </div>
+    </section>
+
+    <section id="tarif" class="section-padding">
+      <h2>Nos Prestations</h2>
+      <div class="carousel-scroll">
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="./image/mousse.png" alt="Coupe classique">
+          </div>
+          <div class="card-content">
+            <p class="service-title"><i class="fa-solid fa-scissors"></i> Coupe Classique</p>
+            <p class="service-price">30€</p>
+            <a href="#formulaire" class="btn-rdv">Réserver</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="./image/rasoir.png" alt="Barbe et soin">
+          </div>
+          <div class="card-content">
+            <p class="service-title"><i class="fa-solid fa-scissors"></i> Barbe & Soin</p>
+            <p class="service-price">20€</p>
+            <a href="#formulaire" class="btn-rdv">Réserver</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="./image/martin_r.png" alt="Coupe et barbe">
+          </div>
+          <div class="card-content">
+            <p class="service-title"><i class="fa-solid fa-scissors"></i> Coupe & Barbe</p>
+            <p class="service-price">45€</p>
+            <a href="#formulaire" class="btn-rdv">Réserver</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="./image/mousse.png" alt="Soin visage">
+          </div>
+          <div class="card-content">
+            <p class="service-title"><i class="fa-solid fa-scissors"></i> Soin Visage</p>
+            <p class="service-price">25€</p>
+            <a href="#formulaire" class="btn-rdv">Réserver</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="./image/rasoir.png" alt="Rasage traditionnel">
+          </div>
+          <div class="card-content">
+            <p class="service-title"><i class="fa-solid fa-scissors"></i> Rasage Traditionnel</p>
+            <p class="service-price">22€</p>
+            <a href="#formulaire" class="btn-rdv">Réserver</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="./image/martin_r.png" alt="Dégradé américain">
+          </div>
+          <div class="card-content">
+            <p class="service-title"><i class="fa-solid fa-scissors"></i> Dégradé Américain</p>
+            <p class="service-price">35€</p>
+            <a href="#formulaire" class="btn-rdv">Réserver</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="./image/mousse.png" alt="Coloration homme">
+          </div>
+          <div class="card-content">
+            <p class="service-title"><i class="fa-solid fa-scissors"></i> Coloration Homme</p>
+            <p class="service-price">40€</p>
+            <a href="#formulaire" class="btn-rdv">Réserver</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="./image/rasoir.png" alt="Soin cheveux">
+          </div>
+          <div class="card-content">
+            <p class="service-title"><i class="fa-solid fa-scissors"></i> Soin Cheveux</p>
+            <p class="service-price">28€</p>
+            <a href="#formulaire" class="btn-rdv">Réserver</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="avis" class="section-padding">
+      <h2>Avis Clients</h2>
+      <div class="avis-layout">
+        <div class="avis-scroll">
+          <div class="avis-colonne">
+            <div class="avis-item">
+              <div class="avis-header">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="quote">Super accueil, coupe impeccable, ambiance au top !</p>
+              </div>
+              <div class="avis-footer">
+                <span>– Julien M.</span>
+                <a href="#" class="avis-link"><i class="fab fa-facebook-f"></i></a>
+              </div>
+            </div>
+            <div class="avis-item">
+              <div class="avis-header">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="quote">Enfin un vrai barbier à l'écoute 👌</p>
+              </div>
+              <div class="avis-footer">
+                <span>– Clara D.</span>
+                <a href="#" class="avis-link"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="avis-item">
+              <div class="avis-header">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="quote">Fidèle depuis 2 ans, toujours top !</p>
+              </div>
+              <div class="avis-footer">
+                <span>– Nassim R.</span>
+                <a href="#" class="avis-link"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="avis-colonne">
+            <div class="avis-item">
+              <div class="avis-header">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="quote">Une coupe parfaite, je recommande à 100% !</p>
+              </div>
+              <div class="avis-footer">
+                <span>– Emma S.</span>
+                <a href="#" class="avis-link"><i class="fab fa-facebook-f"></i></a>
+              </div>
+            </div>
+            <div class="avis-item">
+              <div class="avis-header">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="quote">Rasage traditionnel au top, équipe au petit soin.</p>
+              </div>
+              <div class="avis-footer">
+                <span>– Hugo T.</span>
+                <a href="#" class="avis-link"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="avis-item">
+              <div class="avis-header">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="quote">Salon propre, stylé, et staff très pro. Merci !</p>
+              </div>
+              <div class="avis-footer">
+                <span>– Kevin L.</span>
+                <a href="#" class="avis-link"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="avis-colonne">
+            <div class="avis-item">
+              <div class="avis-header">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="quote">Toujours un plaisir, ponctuels et pros !</p>
+              </div>
+              <div class="avis-footer">
+                <span>– Sabrina J.</span>
+                <a href="#" class="avis-link"><i class="fab fa-facebook-f"></i></a>
+              </div>
+            </div>
+            <div class="avis-item">
+              <div class="avis-header">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="quote">Le meilleur salon du coin, ambiance et qualité 🔥</p>
+              </div>
+              <div class="avis-footer">
+                <span>– Yacine K.</span>
+                <a href="#" class="avis-link"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="avis-item">
+              <div class="avis-header">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="quote">Professionnalisme, accueil chaleureux, top 👌</p>
+              </div>
+              <div class="avis-footer">
+                <span>– Lucas B.</span>
+                <a href="#" class="avis-link"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="avis-image">
+          <img src="./image/ChatGPT Image 8 avr. 2025, 12_55_49.png" alt="Scène barbershop moderne">
+        </div>
+      </div>
+    </section>
+ 
+    <section id="formulaire" class="formulaire formulaire-epure">
+      <h2>Prise De rendez-vous</h2>
+      <form>
+        <label for="nom">NOM</label>
+        <input type="text" id="nom" required>
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" required>
+        <label for="tel">TÉLÉPHONE</label>
+        <input type="tel" id="tel" required>
+        <label for="date">DATE ET HEURE</label>
+        <input type="datetime-local" id="date" required>
+        <label for="service">Service souhaité</label>
+        <select id="service" required>
+          <option value="" disabled selected>Service souhaité</option>
+          <option>Coupe</option>
+          <option>Barbe</option>
+          <option>Coupe & Barbe</option>
+          <option>Soin Visage</option>
+          <option>Rasage Traditionnel</option>
+          <option>Dégradé Américain</option>
+          <option>Coloration Homme</option>
+          <option>Soin Cheveux</option>
+          <option>Autre motif</option>
+        </select>
+        <button type="submit">RÉSERVER</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p>📍 12 rue des Barbiers, 75000 Paris</p>
+        <p>📞 01 23 45 67 89</p>
+        <p>📧 contact@barbershop.fr</p>
+      </div>
+      <div class="footer-separator"></div>
+      <div class="footer-section">
+        <h4>Horaires</h4>
+        <p>Lundi - Vendredi : 10h - 19h</p>
+        <p>Samedi : 10h - 17h</p>
+        <p>Dimanche : Fermé</p>
+      </div>
+      <div class="social">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+      <div class="footer-section map">
+        <iframe src="https://www.google.com/maps/embed?..." width="100%" height="200" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2025 Barbershop. Tous droits réservés.</div>
+  </footer>
+</body>
+</html>
